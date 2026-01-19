@@ -111,5 +111,4 @@ CLI → Web agent conversion (ADK)
 
 🎨 Custom frontend (React)
 
-## 🏗️ Architecture Overview
 
