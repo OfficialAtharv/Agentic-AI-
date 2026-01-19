@@ -68,8 +68,8 @@ my_agent/
 ### Python Dependencies
 Install all required packages:
 
-```bash
-pip install requests timezonefinder google-adk
+bash
+pip install requests timezonefinder google-adk 
 
 
 Example
