@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Agentic Time AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #020617;
+      padding: 25px;
+      border-radius: 12px;
+      width: 420px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      margin-bottom: 12px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      background: #6366f1;
+      color: white;
+    }
+
+    button:hover {
+      background: #4f46e5;
+    }
+
+    .response {
+      margin-top: 16px;
+      padding: 12px;
+      background: #020617;
+      border-radius: 8px;
+      min-height: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>🕒 Agentic Time AI</h2>
+
+    <input
+      id="query"
+      placeholder="e.g. What is the time in Tokyo?"
+    />
+
+    <button onclick="askAgent()">Get Time</button>
+
+    <div class="response" id="response"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

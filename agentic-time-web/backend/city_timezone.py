@@ -1,0 +1,18 @@
+CITY_TIMEZONE = {
+    "pune": "Asia/Kolkata",
+    "mumbai": "Asia/Kolkata",
+    "delhi": "Asia/Kolkata",
+    "bangalore": "Asia/Kolkata",
+    "london": "Europe/London",
+    "new york": "America/New_York",
+    "tokyo": "Asia/Tokyo",
+    "sydney": "Australia/Sydney",
+    "paris": "Europe/Paris",
+    "berlin": "Europe/Berlin",
+    "moscow": "Europe/Moscow",
+    "beijing": "Asia/Shanghai",
+    "shanghai": "Asia/Shanghai",
+    "chennai": "Asia/Kolkata",  
+    "bharat": "Asia/Kolkata",
+    "delhi": "Asia/Kolkata",
+}
