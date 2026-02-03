@@ -109,6 +109,4 @@ CLI → Web agent conversion (ADK)
 
 
 
-_Upcomming commit will be having the web-based agentic AI which will behave like normal AI agents _
-Yet its **hallucinating** the data and more precisely facing **API key expiry problem**.
 
